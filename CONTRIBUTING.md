@@ -188,8 +188,6 @@ before we merge any in, but feel free to start!
 -->
 ## Překlady
 
-## Překlady
-
 Rádi uvítáme pomoc s překladem knihy! Podívejte se na štítek [Překlady],
 abyste se zapojili do probíhajících překladatelských prací. Otevřete nový
 problém (issue), pokud chcete začít pracovat na novém jazyce!
