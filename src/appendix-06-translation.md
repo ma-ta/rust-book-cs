@@ -1,7 +1,14 @@
+<!--
 ## Appendix F: Translations of the Book
 
 For resources in languages other than English. Most are still in progress; see
 [the Translations label][label] to help or let us know about a new translation!
+-->
+## Dodatek F: Překlady knihy
+
+Pro materiály v jiných jazycích než angličtině. Většina není kompletní; viz
+[the Translations label][label], pokud chcete pomoci nebo nám dát vědět
+o novém překladu!
 
 [label]: https://github.com/rust-lang/book/issues?q=is%3Aopen+is%3Aissue+label%3ATranslations
 
@@ -26,3 +33,4 @@ For resources in languages other than English. Most are still in progress; see
 - [हिंदी](https://github.com/venkatarun95/rust-book-hindi)
 - [ไทย](https://github.com/rust-lang-th/book-th)
 - [Danske](https://github.com/DanKHansen/book-dk)
+- [Čeština](https://github.com/ma-ta/rust-book-cs)
