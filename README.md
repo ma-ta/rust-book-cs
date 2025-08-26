@@ -141,22 +141,22 @@ isn't strictly fixing an error, it might sit until the next time that we're
 working on a large revision: expect on the order of months or years. Thank you
 for your patience!
 -->
-## Přispění
+## Jak přispět
 
 Rádi uvítáme vaši pomoc! Podívejte se na [CONTRIBUTING.md][contrib], abyste
 se dozvěděli, jaké typy výpomoci hledáme.
 
 [contrib]: https://github.com/rust-lang/book/blob/main/CONTRIBUTING.md
 
-Protože je kniha [tištěná][nostarch] a protože chceme, aby online verze knihy
-byla co nejblíže verzi papírové, může trvat vyřešení vašeho issue nebo pull
-requestu o něco déle.
+Protože je kniha také v [tištěné verzi][nostarch] a snažíme se, aby online verze
+byla co nejblíže té papírové, může nám vyřízení vašeho issue nebo pull requestu
+trvat déle, než jste zvyklí.
 
-Dosud jsme prováděli větší revizi souběžně s
-[edicemi Rustu](https://doc.rust-lang.org/edition-guide/).
-Mezi těmito většími revizemi budeme opravovat jen chyby. Pokud váš issue
-nebo pull request není striktně jen opravou chyby, může čekat až do příští
-větší revize: počítejte s tím, že to může trvat měsíce nebo i roky.
+Dosud jsme prováděli větší revize v souvislosti s
+[Rust edicemi](https://doc.rust-lang.org/edition-guide/).
+Mezi těmito většími revizemi opravujeme pouze chyby. Pokud vaše issue nebo
+pull request není čistě opravou chyby, může čekat až do další
+velké revize – počítejte s tím, že to může být otázka měsíců nebo let.
 Děkujeme za vaši trpělivost!
 
 <!--
