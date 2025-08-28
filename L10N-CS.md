@@ -1,9 +1,7 @@
 ```text
 TRANSLATION STATUS / STAV PŘEKLADU [CS]
 
-
 L10N   PATH
-
        .
        ├── 2018-edition
 [ ]    ├── ADMIN_TASKS.md
@@ -38,6 +36,7 @@ L10N   PATH
 
        14 directories, 17 files
 
+L10N   PATH
 [ ]    src/
 [x]    ├── appendix-00.md
 [x]    ├── appendix-01-keywords.md
