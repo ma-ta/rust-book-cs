@@ -36,171 +36,95 @@ s popisem jejich funkce.
 <!--
 - `as` - perform primitive casting, disambiguate the specific trait containing
   an item, or rename items in `use` statements
+- `async` - return a `Future` instead of blocking the current thread
+- `await` - suspend execution until the result of a `Future` is ready
+- `break` - exit a loop immediately
+- `const` - define constant items or constant raw pointers
+- `continue` - continue to the next loop iteration
+- `crate` - in a module path, refers to the crate root
+- `dyn` - dynamic dispatch to a trait object
+- `else` - fallback for `if` and `if let` control flow constructs
+- `enum` - define an enumeration
+- `extern` - link an external function or variable
+- `false` - Boolean false literal
+- `fn` - define a function or the function pointer type
+- `for` - loop over items from an iterator, implement a trait, or specify a
+  higher-ranked lifetime
+- `if` - branch based on the result of a conditional expression
+- `impl` - implement inherent or trait functionality
+- `in` - part of `for` loop syntax
+- `let` - bind a variable
+- `loop` - loop unconditionally
+- `match` - match a value to patterns
+- `mod` - define a module
+- `move` - make a closure take ownership of all its captures
+- `mut` - denote mutability in references, raw pointers, or pattern bindings
+- `pub` - denote public visibility in struct fields, `impl` blocks, or modules
+- `ref` - bind by reference
+- `return` - return from function
+- `Self` - a type alias for the type we are defining or implementing
+- `self` - method subject or current module
+- `static` - global variable or lifetime lasting the entire program execution
+- `struct` - define a structure
+- `super` - parent module of the current module
+- `trait` - define a trait
+- `true` - Boolean true literal
+- `type` - define a type alias or associated type
+- `union` - define a [union][union]; is only a keyword when used
+  in a union declaration
+- `unsafe` - denote unsafe code, functions, traits, or implementations
+- `use` - bring symbols into scope; specify precise captures for generic and
+  lifetime bounds
+- `where` - denote clauses that constrain a type
+- `while` - loop conditionally based on the result of an expression
 -->
 - `as` - provádí primitivní přetypování, určuje konkrétní trait obsahující
   prvek, nebo přejmenovává položky v `use` příkazech
-<!--
-- `async` - return a `Future` instead of blocking the current thread
--->
 - `async` - vrací `Future` namísto blokování aktuálního vlákna
-<!--
-- `await` - suspend execution until the result of a `Future` is ready
--->
 - `await` - pozastaví vykonávání, dokud není výsledek `Future` připraven
-<!--
-- `break` - exit a loop immediately
--->
 - `break` - okamžitě ukončí cyklus
-<!--
-- `const` - define constant items or constant raw pointers
--->
 - `const` - definuje konstanty nebo konstantní raw ukazatele
-<!--
-- `continue` - continue to the next loop iteration
--->
 - `continue` - přeskočí na další iteraci cyklu
-<!--
-- `crate` - in a module path, refers to the crate root
--->
 - `crate` - v cestě modulu odkazuje na crate root
-<!--
-- `dyn` - dynamic dispatch to a trait object
--->
 - `dyn` - dynamické volání trait objektu
-<!--
-- `else` - fallback for `if` and `if let` control flow constructs
--->
 - `else` - větev příkazu `if` a `if let`
-<!--
-- `enum` - define an enumeration
--->
 - `enum` - definuje výčtový typ
-<!--
-- `extern` - link an external function or variable
--->
 - `extern` - propojuje externí funkci nebo proměnnou
-<!--
-- `false` - Boolean false literal
--->
 - `false` - literál logické hodnoty nepravda
-<!--
-- `fn` - define a function or the function pointer type
--->
 - `fn` - definuje funkci nebo typ ukazatele na funkci
-<!--
-- `for` - loop over items from an iterator, implement a trait, or specify a
-  higher-ranked lifetime
--->
 - `for` - iteruje přes položky z iterátoru, implementuje trait nebo určuje
   higher-ranked lifetime
-<!--
-- `if` - branch based on the result of a conditional expression
--->
 - `if` - větvení podle výsledku podmíněného výrazu
-<!--
-- `impl` - implement inherent or trait functionality
--->
 - `impl` - implementuje vlastní nebo traitovou funkcionalitu
-<!--
-- `in` - part of `for` loop syntax
--->
 - `in` - součást syntaxe `for` cyklu
-<!--
-- `let` - bind a variable
--->
 - `let` - definuje proměnnou
-<!--
-- `loop` - loop unconditionally
--->
 - `loop` - cyklus bez podmínky (nekonečný)
-<!--
-- `match` - match a value to patterns
--->
 - `match` - porovnává hodnotu se vzory (pattern matching)
-<!--
-- `mod` - define a module
--->
 - `mod` - definuje modul
-<!--
-- `move` - make a closure take ownership of all its captures
--->
 - `move` - způsobí, že uzávěr (closure) převezme vlastnictví všech
   zachycených hodnot
-<!--
-- `mut` - denote mutability in references, raw pointers, or pattern bindings
--->
 - `mut` - označuje mutabilitu v referencích, raw ukazatelích
   nebo pattern bindings
-<!--
-- `pub` - denote public visibility in struct fields, `impl` blocks, or modules
--->
 - `pub` - označuje veřejnou viditelnost položek ve strukturách, `impl` blocích
   nebo modulech
-<!--
-- `ref` - bind by reference
--->
 - `ref` - prováže odkazem
-<!--
-- `return` - return from function
--->
 - `return` - ukončí funkci (a vrátí hodnotu)
-<!--
-- `Self` - a type alias for the type we are defining or implementing
--->
 - `Self` - typový alias pro typ, který právě definujeme nebo implementujeme
-<!--
-- `self` - method subject or current module
--->
 - `self` - objekt metody nebo daného modulu
-<!--
-- `static` - global variable or lifetime lasting the entire program execution
--->
 - `static` - globální proměnná nebo lifetime trvající po celou dobu běhu
   programu
-<!--
-- `struct` - define a structure
--->
 - `struct` - definuje strukturu
-<!--
-- `super` - parent module of the current module
--->
 - `super` - nadřazený modul aktuálního modulu
-<!--
-- `trait` - define a trait
--->
 - `trait` - definuje trait (rozhraní / vlastnost)
-<!--
-- `true` - Boolean true literal
--->
 - `true` - literál logické hodnoty pravda
-<!--
-- `type` - define a type alias or associated type
--->
 - `type` - definuje typový alias nebo asociovaný typ
-<!--
-- `union` - define a [union][union]; is only a keyword when used
-  in a union declaration
--->
 - `union` - definuje [union][union]<!-- ignore -->; je klíčovým slovem pouze
   v deklaraci unionu
-<!--
-- `unsafe` - denote unsafe code, functions, traits, or implementations
--->
 - `unsafe` - označuje nezabezpečený (unsafe) kód, funkce, traity
   nebo implementace
-<!--
-- `use` - bring symbols into scope; specify precise captures for generic and
-  lifetime bounds
--->
 - `use` - zavádí symboly do aktuálního oboru viditelnosti; umožňuje přesně
   určit zachycení pro generické parametry a lifetime (omezení životnosti)
-<!--
-- `where` - denote clauses that constrain a type
--->
 - `where` - určuje podmínky (klauzule), které omezují typ
-<!--
-- `while` - loop conditionally based on the result of an expression
--->
 - `while` - podmíněný cyklus založený na výsledku výrazu
 
 [union]: ../reference/items/unions.html
