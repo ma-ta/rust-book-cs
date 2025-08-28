@@ -1,5 +1,8 @@
 ```text
 TRANSLATION STATUS / STAV PŘEKLADU [CS]
+[ ] -> todo
+[-] -> partial
+[x] -> done
 
 L10N   PATH
        .
@@ -27,7 +30,7 @@ L10N   PATH
        ├── rustfmt.toml
        ├── rust-toolchain
        ├── second-edition
-[ ]    ├── src
+[-]    ├── src
 [ ]    ├── style-guide.md
        ├── target
        ├── theme
