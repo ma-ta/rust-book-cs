@@ -33,7 +33,7 @@ L10N   PATH
 [ ]    ├── style-guide.md
        ├── target
        ├── theme
-[ ]    ├── TODO.md
+[x]    ├── TODO.md
        └── tools
 
        14 directories, 17 files

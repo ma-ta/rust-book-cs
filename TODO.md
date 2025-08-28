@@ -1,3 +1,4 @@
+<!--
 # In each chapter
 
 - [ ] Manual regeneration
@@ -15,3 +16,21 @@
 - [ ] Index tags
   - [ ] search for "convention" conventions:naming:of blah
   - [ ] check for double spaces, spaces at the end of paragraphs
+-->
+# V každé kapitole
+
+- [ ] Manuální regenerace
+- [ ] Zkontrolovat změny v upstreamu od posledního snapshotu
+- [ ] Propagovat aktualizovaný výstup do docx
+- [ ] Extrahovat docx a zkontrolovat rozdíly
+- [ ] Odpovědět na všechny komentáře
+- [ ] Zkontrolovat křížové odkazy
+- [ ] Zkontrolovat odsazení --snip--
+- [ ] Číslované řádky, šedé nezměněné řádky
+- [ ] Zkontrolovat zalamování řádků
+- [ ] Zkontrolovat zbytečný výstup příkazů/kompilace/spouštění
+- [ ] Zkontrolovat styl println a chybové zprávy
+- [ ] Přidat alternativní text k obrázkům
+- [ ] Indexové tagy
+  - [ ] vyhledat „convention“ conventions:naming:of něco
+  - [ ] zkontrolovat dvojité mezery, mezery na konci odstavců
