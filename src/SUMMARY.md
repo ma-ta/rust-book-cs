@@ -168,7 +168,7 @@
   - [Installing Binaries from Crates.io with `cargo install`](ch14-04-installing-binaries.md)
   - [Extending Cargo with Custom Commands](ch14-05-extending-cargo.md)
 -->
-## Přemýšlíme v Rustu
+## Myslíme v Rustu
 
 - [Funkcionální vlastnosti jazyka: iterátory a uzávěry](ch13-00-functional-features.md)
   - [Uzávěry: anonymní funkce zachycující své okolí](ch13-01-closures.md)

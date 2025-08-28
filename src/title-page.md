@@ -16,7 +16,7 @@ _Steve Klabnik, Carol Nichols, and Chris Krycho, s příspěním komunity Rustu_
 Tato verze textu předpokládá, že používáte Rust 1.85.0 (vydaný 2025-02-17)
 nebo novější, s nastavením `edition = "2024"` v souboru Cargo.toml u všech
 projektů, aby byly použity idiomy edice Rust 2024. Jak Rust nainstalovat nebo
-aktualizovat, najdete v [sekci „Instalace“ v kapitole 1][instalace].
+aktualizovat, zjistíte v [sekci „Instalace“ v kapitole 1][instalace].
 
 <!--
 The HTML format is available online at
